@@ -16,7 +16,7 @@ import re
 from bs4 import BeautifulSoup
 from time import sleep
 
-URL = input("Enter valid URL of Youtube Video  >begin with 'https://' \n ")
+URL = input("https://www.youtube.com/watch?v=vAa951sMoFg")
 
 logging.basicConfig(filename='Botlogs.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
